@@ -13,44 +13,46 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className={classes.experience__content}>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>CSS</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>Javascript</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <div>
+                <h4>Javascript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>Jquery</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <div>
+                <h4>Jquery</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>Bootstrap</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <div>
+                <h4>Bootstrap</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>React</h4>
-              <small className="text-light">Experienced</small>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>Something</h4>
-              <small className="text-light">Experienced</small>
-            </article>
-            <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>Something Else</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
           </div>
         </div>
@@ -59,19 +61,25 @@ const Experience = () => {
 
           <div className={classes.experience__content}>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>Node.js</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <div>
+                <h4>Node.js</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>Firebase</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <div>
+                <h4>Firebase</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill />
-              <h4>Python</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
           </div>
         </div>

@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 4rem;
+  padding-top: 3rem;
   overflow: hidden;
 }
 
@@ -65,7 +65,15 @@ header {
 /* MEDIA QUERIES (for medium devices) */
 @media screen and (max-width: 1024px){
   header {
-    height: 68vh;
+    padding-top: 2rem;
+  }
+
+  .me{
+    padding: 2rem 4rem 4rem;
+  }
+
+  .cta{
+    margin-top: 1.8rem;
   }
 }
 /* MEDIA QUERIES (for small devices) */
