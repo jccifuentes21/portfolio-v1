@@ -2,12 +2,12 @@ nav{
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
   display: block;
-  padding: 0.7rem 1.7rem;
+  padding: 0.5rem 1.7rem;
   z-index: 2;
   position: fixed;
   left: 50%;
   transform: translate(-50%);
-  bottom: 2rem;
+  bottom: 1rem;
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
@@ -16,6 +16,7 @@ nav{
 
 nav a{
   background: transparent;
+  width: fit-content;
   padding: .9rem;
   border-radius: 50%;
   display: flex;
@@ -30,4 +31,24 @@ nav a:hover{
 nav a.active{
   background: var(--color-bg);
   color: var(--color-white);
+}
+
+.nav__group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+}
+
+.nav__group small{
+  font-size: 0.5rem;
+}
+
+@media screen and (max-width: 600px){
+  nav{
+    padding: 0.2rem;
+  }
+  .nav__group small{
+    display: none;
+  }
 }

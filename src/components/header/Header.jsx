@@ -11,11 +11,11 @@ const Header = () => {
         <h1>Juan Camilo Cifuentes</h1>
         <h5 className={`text-light`}>Web Developer</h5>
         <CTA classes={classes.cta} />
-        <HeaderSocials classes={classes.header__socials} />
 
         <div className={classes.me}>
           <img src={ME} alt="me" />
         </div>
+        <HeaderSocials classes={classes.header__socials} />
 
         <a href="#contact" className={classes.scroll__down}>Scroll Down</a>
       </div>

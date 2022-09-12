@@ -29,6 +29,10 @@ header {
   bottom: 3rem;
 }
 
+.header__socials a {
+  font-size: 2rem;
+}
+
 .header__socials::after{
   content: "";
   width: 1px;
@@ -95,7 +99,20 @@ header {
     aspect-ratio: 1/1;
   }
 
-  .header__socials, .scroll__down{
+  .scroll__down{
     display: none;
   }
+
+  .header__socials{
+    flex-direction: row;
+    bottom: 0;
+    gap: 5rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header__socials::after{
+    display: none;
+  }
+
 }
