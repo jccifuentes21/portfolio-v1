@@ -2,7 +2,7 @@ import classes from './Services.module.css'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <section id='services'>Services</section>
   )
 }
 

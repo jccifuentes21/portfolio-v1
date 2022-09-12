@@ -3,7 +3,7 @@ import classes from './Portfolio.module.css'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <section id='portfolio'>Portfolio</section>
   )
 }
 

@@ -1,6 +1,6 @@
 import classes from "./Header.module.css";
 import CTA from "./CTA";
-import ME from "../../assets/me.jpg";
+import ME from "../../assets/me-2.jpg";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
