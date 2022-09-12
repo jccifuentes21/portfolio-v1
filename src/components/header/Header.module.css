@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 4rem;
+  padding-top: 3rem;
   overflow: hidden;
 }
 
@@ -29,6 +29,10 @@ header {
   bottom: 3rem;
 }
 
+.header__socials a {
+  font-size: 2rem;
+}
+
 .header__socials::after{
   content: "";
   width: 1px;
@@ -42,9 +46,14 @@ header {
   height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
-  margin-top: 1.5rem;
   overflow: hidden;
-  padding: 2rem;
+  padding: 4rem;
+  border-radius: 1rem;
+}
+
+.me > img{
+  border-radius: 1rem;
+  width: 100%;
 }
 
 /* Scroll styles */
@@ -60,16 +69,50 @@ header {
 /* MEDIA QUERIES (for medium devices) */
 @media screen and (max-width: 1024px){
   header {
-    height: 68vh;
+    padding-top: 2rem;
+  }
+
+  .me{
+    padding: 2rem 4rem 4rem;
+  }
+
+  .cta{
+    margin-top: 1.8rem;
   }
 }
 /* MEDIA QUERIES (for small devices) */
 @media screen and (max-width: 600px){
   header {
     height: 100vh;
+    padding-top: 2rem;
   }
 
-  .header__socials, .scroll__down{
+  .me{
+    padding: 2rem 4rem 4rem 4rem;
+  }
+
+  .cta{
+    margin-top: 1.25rem ;
+  }
+
+  .me > img{
+    aspect-ratio: 1/1;
+  }
+
+  .scroll__down{
     display: none;
   }
+
+  .header__socials{
+    flex-direction: row;
+    bottom: 0;
+    gap: 5rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header__socials::after{
+    display: none;
+  }
+
 }
