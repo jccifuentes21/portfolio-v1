@@ -1,11 +1,10 @@
-// import CV from '../../assets/cv.pdf' ACTIVATE WHEN CV IS COMPLETE
-//<a href={CV} download>Download CV</a>
+import CV from '../../assets/WebDevCV-JCCM.pdf'
 
 const CTA = (props) => {
   return (
     <div className={props.classes}>
-      <a href="#" className="btn">Download CV</a>
-      <a href="#contact" className="btn btn-primary">Let's Talk</a>
+      <a href={CV} className="btn" download>Download CV</a>
+      <a href="#contact" className="btn btn-primary">Let's Talk!</a>
     </div>
   )
 }

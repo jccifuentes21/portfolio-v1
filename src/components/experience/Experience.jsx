@@ -1,6 +1,10 @@
 import classes from "./Experience.module.css";
 
-import { BsPatchCheckFill } from "react-icons/bs";
+import { BiGitBranch } from "react-icons/bi";
+import { ImHtmlFive, ImCss3 } from "react-icons/im";
+import { SiJavascript, SiBootstrap, SiJquery, SiFirebase, SiPython, SiHeroku } from "react-icons/si";
+import { FaReact, FaSass, FaGithub } from "react-icons/fa";
+import { IoLogoNodejs } from "react-icons/io";
 
 const Experience = () => {
   return (
@@ -13,45 +17,73 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className={classes.experience__content}>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <ImHtmlFive className={classes['experience__details-icon']} />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <ImCss3 className={classes['experience__details-icon']} />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <SiJavascript className={classes['experience__details-icon']} />
               <div>
                 <h4>Javascript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <SiJquery className={classes['experience__details-icon']} />
               <div>
                 <h4>Jquery</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <SiBootstrap className={classes['experience__details-icon']} />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <FaReact className={classes['experience__details-icon']} />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Proficient</small>
+              </div>
+            </article>
+            <article className={classes.experience__details}>
+              <FaSass className={classes['experience__details-icon']} />
+              <div>
+                <h4>SASS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className={classes.experience__details}>
+              <BiGitBranch className={classes['experience__details-icon']} />
+              <div>
+                <h4>Git</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className={classes.experience__details}>
+              <FaGithub className={classes['experience__details-icon']} />
+              <div>
+                <h4>Github</h4>
+                <small className="text-light">Proficient</small>
+              </div>
+            </article>
+            <article className={classes.experience__details}>
+              <SiHeroku className={classes['experience__details-icon']} />
+              <div>
+                <h4>Heroku</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
@@ -61,26 +93,41 @@ const Experience = () => {
 
           <div className={classes.experience__content}>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <IoLogoNodejs className={classes['experience__details-icon']} />
               <div>
                 <h4>Node.js</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <SiFirebase className={classes['experience__details-icon']} />
               <div>
                 <h4>Firebase</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes['experience__details-icon']} />
+              <SiPython className={classes['experience__details-icon']} />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
+            <article className={classes.experience__details}>
+              <IoLogoNodejs className={classes['experience__details-icon']} />
+              <div>
+                <h4>Express.js</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className={classes.experience__details}>
+              <IoLogoNodejs className={classes['experience__details-icon']} />
+              <div>
+                <h4>EJS</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            
           </div>
         </div>
       </div>

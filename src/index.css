@@ -11,11 +11,11 @@
 }
 
 :root {
-  --color-bg: #1d3557  ;
-  --color-bg-variant: #457b9d  ;
-  --color-primary: #a7c957  ;
+  --color-bg: #353535  ;
+  --color-bg-variant: #505050  ;
+  --color-primary: #cf2932  ;
   --color-white: #e1dad2;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(255, 255, 255, 0.801);
   
   --transition: all 400ms ease;
 
@@ -35,6 +35,10 @@ html {
 body {
   margin: 0;
   background: var(--color-bg);
+  background: url('./assets/MKBHD\ Icons\ -\ Black.png');
+  /* background-position: 50% 50%; */
+  background-attachment: fixed;
+  background-size: contain;
   color: var(--color-white);
   line-height: 1.7;
   font-family: "Montserrat", sans-serif;

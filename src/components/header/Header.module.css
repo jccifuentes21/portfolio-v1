@@ -73,6 +73,8 @@ header {
   }
 
   .me{
+    width: 30rem;
+    left: calc(50% - 15rem);
     padding: 2rem 4rem 4rem;
   }
 
@@ -89,6 +91,9 @@ header {
 
   .me{
     padding: 2rem 4rem 4rem 4rem;
+    width: 25rem;
+    /* height: 30rem; */
+    left: calc(50% - 12.5rem);
   }
 
   .cta{
@@ -105,10 +110,14 @@ header {
 
   .header__socials{
     flex-direction: row;
-    bottom: 0;
+    bottom: 5rem;
     gap: 5rem;
     justify-content: center;
     width: 100%;
+  }
+
+  .header__socials a{
+    font-size: 4rem;
   }
 
   .header__socials::after{
