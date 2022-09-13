@@ -36,7 +36,7 @@ body {
   margin: 0;
   background: var(--color-bg);
   background: url('./assets/MKBHD\ Icons\ -\ Black.png');
-  /* background-position: 50% 50%; */
+  background-position: 50% 50%;
   background-attachment: fixed;
   background-size: contain;
   color: var(--color-white);
