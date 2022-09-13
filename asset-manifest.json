@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-v1/static/css/main.93649223.css",
-    "main.js": "/portfolio-v1/static/js/main.1cb134e4.js",
+    "main.js": "/portfolio-v1/static/js/main.5f83650c.js",
     "static/media/me-2.jpg": "/portfolio-v1/static/media/me-2.22de278c95244d9ec939.jpg",
     "static/media/MKBHD Icons - Black.png": "/portfolio-v1/static/media/MKBHD Icons - Black.84953ab0ac6da550c89a.png",
     "static/media/Fridgefy.jpg": "/portfolio-v1/static/media/Fridgefy.2063deb7554fed74e506.jpg",
@@ -17,10 +17,10 @@
     "static/media/Tasks.jpg": "/portfolio-v1/static/media/Tasks.c6989b8505d28af3cfb3.jpg",
     "index.html": "/portfolio-v1/index.html",
     "main.93649223.css.map": "/portfolio-v1/static/css/main.93649223.css.map",
-    "main.1cb134e4.js.map": "/portfolio-v1/static/js/main.1cb134e4.js.map"
+    "main.5f83650c.js.map": "/portfolio-v1/static/js/main.5f83650c.js.map"
   },
   "entrypoints": [
     "static/css/main.93649223.css",
-    "static/js/main.1cb134e4.js"
+    "static/js/main.5f83650c.js"
   ]
 }
