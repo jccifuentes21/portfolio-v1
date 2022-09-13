@@ -20,70 +20,60 @@ const Experience = () => {
               <ImHtmlFive className={classes['experience__details-icon']} />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <ImCss3 className={classes['experience__details-icon']} />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <SiJavascript className={classes['experience__details-icon']} />
               <div>
                 <h4>Javascript</h4>
-                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <SiJquery className={classes['experience__details-icon']} />
               <div>
                 <h4>Jquery</h4>
-                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <SiBootstrap className={classes['experience__details-icon']} />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <FaReact className={classes['experience__details-icon']} />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <FaSass className={classes['experience__details-icon']} />
               <div>
                 <h4>SASS</h4>
-                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <BiGitBranch className={classes['experience__details-icon']} />
               <div>
                 <h4>Git</h4>
-                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <FaGithub className={classes['experience__details-icon']} />
               <div>
                 <h4>Github</h4>
-                <small className="text-light">Proficient</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <SiHeroku className={classes['experience__details-icon']} />
               <div>
                 <h4>Heroku</h4>
-                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
@@ -96,35 +86,30 @@ const Experience = () => {
               <IoLogoNodejs className={classes['experience__details-icon']} />
               <div>
                 <h4>Node.js</h4>
-                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <SiFirebase className={classes['experience__details-icon']} />
               <div>
                 <h4>Firebase</h4>
-                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <SiPython className={classes['experience__details-icon']} />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <IoLogoNodejs className={classes['experience__details-icon']} />
               <div>
                 <h4>Express.js</h4>
-                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <IoLogoNodejs className={classes['experience__details-icon']} />
               <div>
                 <h4>EJS</h4>
-                <small className="text-light">Beginner</small>
               </div>
             </article>
             

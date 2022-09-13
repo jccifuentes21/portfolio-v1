@@ -36,14 +36,14 @@ const About = () => {
           </div>
 
           <p>
-            I'm a junior frontend web developer (full stack loading...) with a
+            I'm a junior frontend web developer, soon to be fullstack, with a
             background as a Mechatronics Engineer. I graduated from my
             Mechatronics Degree in June 2021 at ITESM. I have always enjoyed
             coding and web development. I possess excellent problem solving skills and a strong desire for learning and growing!
           </p>
           <p>
              Tech
-            things aside, I love sports (golf and tennis mostly) and traveling!
+            things aside, I love sports, golf and tennis mostly, and traveling!
             I speak english and spanish fluently, and I'm currently based in
             Vancouver, BC.
           </p>
