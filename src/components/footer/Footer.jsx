@@ -2,6 +2,8 @@ import classes from "./Footer.module.css";
 
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -29,6 +31,12 @@ const Footer = () => {
       </ul>
 
       <div className={classes.footer__socials}>
+        <a href="http://github.com/jccifuentes21">
+          <FaGithub />
+        </a>
+        <a href="http://linkedin.com/in/jccifuentes21">
+          <BsLinkedin />
+        </a>
         <a href="http://instagram.com/jccifuentes21">
           <FiInstagram />
         </a>

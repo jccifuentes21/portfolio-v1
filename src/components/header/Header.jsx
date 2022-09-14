@@ -9,7 +9,7 @@ const Header = () => {
       <div className={`container ${classes.header__container}`}>
         <h5>Hi, my name is</h5>
         <h1>Juan Camilo Cifuentes</h1>
-        <h5 className={`text-light`}>I'm a Web Developer</h5>
+        <h5 className={`text-light ${classes.web__dev}`}>I'm a Web Developer</h5>
         <CTA classes={classes.cta} />
 
         <div className={classes.me}>

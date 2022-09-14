@@ -10,6 +10,10 @@ header {
   position: relative;
 }
 
+.web__dev{
+  font-size: 1.5rem;
+}
+
 /* CTA styles */
 .cta {
   margin-top: 2.5rem;

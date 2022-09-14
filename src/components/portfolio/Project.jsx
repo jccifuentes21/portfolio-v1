@@ -3,10 +3,14 @@ import classes from "./Portfolio.module.css";
 const Project = ({ project }) => {
   return (
     <article className={classes.portfolio__item}>
+      <h3>{project.title}</h3>
       <div className={classes["portfolio__item-image"]}>
         <img src={project.image} alt={`${project.title} image`} />
       </div>
-      <h3>{project.title}</h3>
+      <div className={classes.description}>
+        <h5>Description</h5>
+        <small>{project.description}</small>
+      </div>
       <div className={classes.tech__used}>
         <h5>Technologies used</h5>
         <small>{project.technologies}</small>
