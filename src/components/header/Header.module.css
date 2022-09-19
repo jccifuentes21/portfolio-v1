@@ -124,7 +124,8 @@ header {
 
   .header__socials{
     flex-direction: row;
-    /* bottom: 5rem; */
+    position: relative;
+    top: 0;
     gap: 5rem;
     justify-content: center;
     width: 100%;
