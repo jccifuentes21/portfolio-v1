@@ -5,6 +5,9 @@ header {
 }
 
 .header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   height: 100%;
   position: relative;
@@ -46,10 +49,12 @@ header {
 
 /* image style */
 .me{
-  width: 22rem;
+  /* width: 22rem;
   height: 30rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(50% - 11rem); */
+  display: flex;
+  justify-content: center;
   overflow: hidden;
   padding: 4rem;
   border-radius: 1rem;
@@ -57,7 +62,7 @@ header {
 
 .me > img{
   border-radius: 1rem;
-  width: 100%;
+  width: 50%;
 }
 
 /* Scroll styles */
@@ -77,9 +82,13 @@ header {
   }
 
   .me{
-    width: 30rem;
-    left: calc(50% - 15rem);
+    /* width: 30rem; */
+    /* left: calc(50% - 15rem); */
     padding: 2rem 4rem 4rem;
+  }
+
+  .me > img {
+    width: 80%;
   }
 
   .cta{
@@ -95,9 +104,9 @@ header {
 
   .me{
     padding: 2rem 4rem 4rem 4rem;
-    width: 25rem;
+    /* width: 25rem; */
     /* height: 30rem; */
-    left: calc(50% - 12.5rem);
+    /* left: calc(50% - 12.5rem); */
   }
 
   .cta{
@@ -106,6 +115,7 @@ header {
 
   .me > img{
     aspect-ratio: 1/1;
+    width: 100%;
   }
 
   .scroll__down{
@@ -114,7 +124,7 @@ header {
 
   .header__socials{
     flex-direction: row;
-    bottom: 5rem;
+    /* bottom: 5rem; */
     gap: 5rem;
     justify-content: center;
     width: 100%;

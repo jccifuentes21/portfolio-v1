@@ -44,8 +44,8 @@
 }
 
 .about__card:hover{
-  background: transparent;
-  border-color: var(--color-primary-variant);
+  background: var(--color-bg-variant-transparent);
+  border-color: solid 5px var(--color-primary-variant);
   cursor: default;
 }
 
@@ -72,6 +72,11 @@
 .fun__facts{
   padding-bottom: 1rem;
   color: var(--color-light);
+}
+
+.projects__card{
+  transition: none;
+  color: white;
 }
 
 /* .fun__facts li{
