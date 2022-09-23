@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v1/static/css/main.81172a0d.css",
-    "main.js": "/portfolio-v1/static/js/main.f3b0d405.js",
+    "main.css": "/portfolio-v1/static/css/main.45f4d737.css",
+    "main.js": "/portfolio-v1/static/js/main.bd8d1141.js",
     "static/media/me-2.jpg": "/portfolio-v1/static/media/me-2.22de278c95244d9ec939.jpg",
     "static/media/MKBHD Icons - Black.png": "/portfolio-v1/static/media/MKBHD Icons - Black.84953ab0ac6da550c89a.png",
     "static/media/Fridgefy.jpg": "/portfolio-v1/static/media/Fridgefy.2063deb7554fed74e506.jpg",
@@ -16,11 +16,11 @@
     "static/media/GreatQuotes.jpg": "/portfolio-v1/static/media/GreatQuotes.d17be722c8b00d8304ca.jpg",
     "static/media/Tasks.jpg": "/portfolio-v1/static/media/Tasks.c6989b8505d28af3cfb3.jpg",
     "index.html": "/portfolio-v1/index.html",
-    "main.81172a0d.css.map": "/portfolio-v1/static/css/main.81172a0d.css.map",
-    "main.f3b0d405.js.map": "/portfolio-v1/static/js/main.f3b0d405.js.map"
+    "main.45f4d737.css.map": "/portfolio-v1/static/css/main.45f4d737.css.map",
+    "main.bd8d1141.js.map": "/portfolio-v1/static/js/main.bd8d1141.js.map"
   },
   "entrypoints": [
-    "static/css/main.81172a0d.css",
-    "static/js/main.f3b0d405.js"
+    "static/css/main.45f4d737.css",
+    "static/js/main.bd8d1141.js"
   ]
 }
