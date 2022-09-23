@@ -19,7 +19,7 @@
 
 .portfolio__item:hover {
   border-color: var(--color-bg-variant);
-  background: var(--color-bg-variant-transparent_2);
+  background: var(--color-bg-variant-transparent);
   backdrop-filter: blur(2px);
 }
 
@@ -44,6 +44,11 @@
   justify-self: end;
   bottom: 0.25rem;
   right: 1rem;
+}
+
+.github__button{
+  font-weight: bolder;
+  background: var(--color-bg);
 }
 
 .description {

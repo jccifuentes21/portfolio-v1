@@ -16,7 +16,7 @@ const Project = ({ project }) => {
         <small>{project.technologies}</small>
       </div>
       <div className={classes["portfolio__item-cta"]}>
-        <a href={project.github} className={`btn`}>
+        <a href={project.github} className={`btn ${classes.github__button}`}>
           Github
         </a>
         <a href={project.demo} className={`btn btn-primary`} target="_blank">
