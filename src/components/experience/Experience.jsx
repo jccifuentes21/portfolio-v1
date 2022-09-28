@@ -5,6 +5,7 @@ import { ImHtmlFive, ImCss3 } from "react-icons/im";
 import { SiJavascript, SiBootstrap, SiJquery, SiFirebase, SiPython, SiHeroku } from "react-icons/si";
 import { FaReact, FaSass, FaGithub } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Experience = () => {
   return (
@@ -50,6 +51,12 @@ const Experience = () => {
               <FaReact className={classes['experience__details-icon']} />
               <div>
                 <h4>React</h4>
+              </div>
+            </article>
+            <article className={classes.experience__details}>
+              <TbBrandNextjs className={classes['experience__details-icon']} />
+              <div>
+                <h4>NextJS</h4>
               </div>
             </article>
             <article className={classes.experience__details}>
