@@ -17,11 +17,11 @@ nav {
 nav a {
   background: transparent;
   width: fit-content;
-  padding: 0.9rem;
+  padding: 0.6rem;
   border-radius: 50%;
   display: flex;
   color: var(--color-light);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 nav a:hover {
@@ -41,7 +41,7 @@ nav a.active {
 }
 
 .nav__group small {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 @media screen and (max-width: 1024px) {

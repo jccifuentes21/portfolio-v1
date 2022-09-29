@@ -2,7 +2,7 @@ import classes from "./Experience.module.css";
 
 import { BiGitBranch } from "react-icons/bi";
 import { ImHtmlFive, ImCss3 } from "react-icons/im";
-import { SiJavascript, SiBootstrap, SiJquery, SiFirebase, SiPython, SiHeroku } from "react-icons/si";
+import { SiJavascript, SiBootstrap, SiJquery, SiFirebase, SiPython, SiHeroku, SiMongodb } from "react-icons/si";
 import { FaReact, FaSass, FaGithub } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -117,6 +117,12 @@ const Experience = () => {
               <IoLogoNodejs className={classes['experience__details-icon']} />
               <div>
                 <h4>EJS</h4>
+              </div>
+            </article>
+            <article className={classes.experience__details}>
+              <SiMongodb className={classes['experience__details-icon']} />
+              <div>
+                <h4>MongoDB</h4>
               </div>
             </article>
             
