@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-v1/static/css/main.9e630737.css",
-    "main.js": "/portfolio-v1/static/js/main.e4cb78da.js",
+    "main.js": "/portfolio-v1/static/js/main.3f96a427.js",
     "static/media/me-2.jpg": "/portfolio-v1/static/media/me-2.22de278c95244d9ec939.jpg",
     "static/media/MKBHD Icons - Black.png": "/portfolio-v1/static/media/MKBHD Icons - Black.84953ab0ac6da550c89a.png",
     "static/media/Fridgefy.jpg": "/portfolio-v1/static/media/Fridgefy.2063deb7554fed74e506.jpg",
     "static/media/ReactMeals.jpg": "/portfolio-v1/static/media/ReactMeals.a47986370199c704595d.jpg",
     "static/media/AboutMe.jpg": "/portfolio-v1/static/media/AboutMe.d14c3fe257f9f86ae296.jpg",
-    "static/media/WebDevCV-JCCM.pdf": "/portfolio-v1/static/media/WebDevCV-JCCM.293cfcc1885f6099f41b.pdf",
+    "static/media/WebDevCV-JCCM.pdf": "/portfolio-v1/static/media/WebDevCV-JCCM.cb3238e790e73980f513.pdf",
     "static/media/Meetups.jpg": "/portfolio-v1/static/media/Meetups.41f6fa9683e146dc0b7d.jpg",
     "static/media/MyTrakr.jpg": "/portfolio-v1/static/media/MyTrakr.3053be26bb97e178b8b4.jpg",
     "static/media/OnlineShop.jpg": "/portfolio-v1/static/media/OnlineShop.18b1d0ef7ac052a665f1.jpg",
@@ -19,10 +19,10 @@
     "static/media/Tasks.jpg": "/portfolio-v1/static/media/Tasks.c6989b8505d28af3cfb3.jpg",
     "index.html": "/portfolio-v1/index.html",
     "main.9e630737.css.map": "/portfolio-v1/static/css/main.9e630737.css.map",
-    "main.e4cb78da.js.map": "/portfolio-v1/static/js/main.e4cb78da.js.map"
+    "main.3f96a427.js.map": "/portfolio-v1/static/js/main.3f96a427.js.map"
   },
   "entrypoints": [
     "static/css/main.9e630737.css",
-    "static/js/main.e4cb78da.js"
+    "static/js/main.3f96a427.js"
   ]
 }
