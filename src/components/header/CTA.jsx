@@ -1,4 +1,4 @@
-import CV from '../../assets/WebDevCV-JCCM.pdf'
+import CV from '../../assets/CV-JCCM.pdf'
 
 const CTA = (props) => {
   return (
