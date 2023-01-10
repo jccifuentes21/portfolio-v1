@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-v1/static/css/main.9e630737.css",
-    "main.js": "/portfolio-v1/static/js/main.5dd24ea2.js",
+    "main.js": "/portfolio-v1/static/js/main.3b97989d.js",
     "static/media/me-2.jpg": "/portfolio-v1/static/media/me-2.22de278c95244d9ec939.jpg",
     "static/media/MKBHD Icons - Black.png": "/portfolio-v1/static/media/MKBHD Icons - Black.84953ab0ac6da550c89a.png",
     "static/media/Fridgefy.jpg": "/portfolio-v1/static/media/Fridgefy.2063deb7554fed74e506.jpg",
     "static/media/ReactMeals.jpg": "/portfolio-v1/static/media/ReactMeals.a47986370199c704595d.jpg",
     "static/media/AboutMe.jpg": "/portfolio-v1/static/media/AboutMe.d14c3fe257f9f86ae296.jpg",
-    "static/media/CV-JCCM.pdf": "/portfolio-v1/static/media/CV-JCCM.ac088259efdaebcd5b2b.pdf",
+    "static/media/CV-JCCM.pdf": "/portfolio-v1/static/media/CV-JCCM.af348ec8c40ff4e62b6e.pdf",
     "static/media/Meetups.jpg": "/portfolio-v1/static/media/Meetups.41f6fa9683e146dc0b7d.jpg",
     "static/media/MyTrakr.jpg": "/portfolio-v1/static/media/MyTrakr.3053be26bb97e178b8b4.jpg",
     "static/media/OnlineShop.jpg": "/portfolio-v1/static/media/OnlineShop.18b1d0ef7ac052a665f1.jpg",
@@ -17,12 +17,13 @@
     "static/media/Tinylinks.jpg": "/portfolio-v1/static/media/Tinylinks.39c49ff02ef388d457d1.jpg",
     "static/media/GreatQuotes.jpg": "/portfolio-v1/static/media/GreatQuotes.d17be722c8b00d8304ca.jpg",
     "static/media/Tasks.jpg": "/portfolio-v1/static/media/Tasks.c6989b8505d28af3cfb3.jpg",
+    "static/media/SwiftChat.jpg": "/portfolio-v1/static/media/SwiftChat.e20ec1ef31a9ee3b3c67.jpg",
     "index.html": "/portfolio-v1/index.html",
     "main.9e630737.css.map": "/portfolio-v1/static/css/main.9e630737.css.map",
-    "main.5dd24ea2.js.map": "/portfolio-v1/static/js/main.5dd24ea2.js.map"
+    "main.3b97989d.js.map": "/portfolio-v1/static/js/main.3b97989d.js.map"
   },
   "entrypoints": [
     "static/css/main.9e630737.css",
-    "static/js/main.5dd24ea2.js"
+    "static/js/main.3b97989d.js"
   ]
 }
