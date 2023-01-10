@@ -12,6 +12,7 @@ import Twootr from "../../assets/Twootr.jpg";
 import ExpenseTracking from "../../assets/ExpenseTracking.jpg";
 import Meetups from "../../assets/Meetups.jpg";
 import Tinylinks from "../../assets/Tinylinks.jpg";
+import SwiftChat from "../../assets/SwiftChat.jpg";
 import Project from "./Project";
 
 const projects = [
@@ -27,6 +28,16 @@ const projects = [
   },
   {
     id: uuidv4(),
+    image: SwiftChat,
+    title: "SwiftChat",
+    github: "https://github.com/jccifuentes21/chat-app-final-project",
+    demo: "https://jccifuentes21.github.io/chat-app-frontend/",
+    technologies: "HTML, CSS styled components, React.js, MongoDB, Bcrypt, Cookie-Session, NodeJS, socketIO.",
+    description:
+      "This fullstack project consists of a React app that functions as an instant messaging application. The user can register to create an account, login and start messaging instantly and in real time with other users.",
+  },
+  {
+    id: uuidv4(),
     image: ReactMeals,
     title: "React Meals",
     github: "https://github.com/jccifuentes21/React-Meals",
@@ -34,36 +45,6 @@ const projects = [
     technologies: "HTML, CSS modules, React.js, Firebase Database",
     description:
       "A website for a restaurant, where the user can select meals and order them. The menu is fetched from a database, and the orders and user info is sent to it as well.",
-  },
-  {
-    id: uuidv4(),
-    image: Fridgefy,
-    title: "Fridgefy",
-    github: "https://github.com/jccifuentes21/Fridgefy",
-    demo: "https://fridgefy-app.herokuapp.com/recipes",
-    technologies: "HTML, CSS modules, Firebase Auth, Firestore DB",
-    description:
-      "A recipes website where you can search for recipes, log in to add ingredients to your fridge and add favorite recipes, as well as compare your items in your fridge with the items for the recipes. Optimized for computer only!",
-  },
-  {
-    id: uuidv4(),
-    image: Meetups,
-    title: "Meetups",
-    github: "https://github.com/jccifuentes21/Meetups",
-    demo: "https://meetups-theta-flame.vercel.app/",
-    technologies: "ReactJS, NextJS, MongoDB",
-    description:
-      "A website to organize meetups! All data is sent to a database contained within  MongoDB. Backend is created with NextJS",
-  },
-  {
-    id: uuidv4(),
-    image: MyTrakr,
-    title: "MyTrakr; a bank app simulator",
-    github: "https://github.com/jccifuentes21/MyTraker-App",
-    demo: "https://mytrakr-jc.herokuapp.com/",
-    technologies: "HTML, Bootstrap CSS, Vanilla Javascript, Node.js ",
-    description:
-      "A dummy bank app simulator, where users can add accounts, add balances, transfer money between accounts and withdraw money.",
   },
   {
     id: uuidv4(),
@@ -77,6 +58,26 @@ const projects = [
   },
   {
     id: uuidv4(),
+    image: MyTrakr,
+    title: "MyTrakr; a bank app simulator",
+    github: "https://github.com/jccifuentes21/MyTraker-App",
+    demo: "https://mytrakr-jc.herokuapp.com/",
+    technologies: "HTML, Bootstrap CSS, Vanilla Javascript, Node.js ",
+    description:
+      "A dummy bank app simulator, where users can add accounts, add balances, transfer money between accounts and withdraw money.",
+  },
+  {
+    id: uuidv4(),
+    image: Fridgefy,
+    title: "Fridgefy",
+    github: "https://github.com/jccifuentes21/Fridgefy",
+    demo: "https://fridgefy-app.herokuapp.com/recipes",
+    technologies: "HTML, CSS modules, Firebase Auth, Firestore DB",
+    description:
+      "A recipes website where you can search for recipes, log in to add ingredients to your fridge and add favorite recipes, as well as compare your items in your fridge with the items for the recipes. Optimized for computer only!",
+  },
+  {
+    id: uuidv4(),
     image: Twootr,
     title: "Twootr",
     github: "https://github.com/jccifuentes21/Twootr",
@@ -84,6 +85,16 @@ const projects = [
     technologies: "HTML, CSS modules, React.js, Node.js",
     description:
       "A twitter clone with a twist. Users choose their username on the website and twoot their thoughts. Twoots and user info are sent to a server created in Node.js.",
+  },
+  {
+    id: uuidv4(),
+    image: Meetups,
+    title: "Meetups",
+    github: "https://github.com/jccifuentes21/Meetups",
+    demo: "https://meetups-theta-flame.vercel.app/",
+    technologies: "ReactJS, NextJS, MongoDB",
+    description:
+      "A website to organize meetups! All data is sent to a database contained within  MongoDB. Backend is created with NextJS",
   },
   {
     id: uuidv4(),
